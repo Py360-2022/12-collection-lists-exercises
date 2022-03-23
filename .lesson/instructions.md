@@ -21,9 +21,9 @@ For example: `count_multiple([3,4,5,6,7,8] , 3)` should return 2 since 3 and 6 a
     * If you get to the end of the loop, it means all were equal so you can return True
 4. The value of π can be approximated by the following infinite series (Nilakantha's Series):  ![nilakatha series](assets/nilakatha.jpg)
   Write a function `approx_pi` that takes a parameter that indicates the number of approximations to be calculated. For example, if the parameter is 0 return 3, if the parameter is 1, return 3 + the first term, if the parameter is 2, return 3 plus the first, minus the second. Hints:
-    * You need a way to alternate between adding and subtracting the next term. Consider using (-1)**n where n is changing between even and odd
+    * You need a way to alternate between adding and subtracting the next term. Consider using `(-1)**n` where n is changing between even and odd
     * Look at the pattern in the denominators – is there a way you can use your range variable to help figure the first number of each denominator expression?
     * Ref https://en.wikipedia.org/wiki/Pi 
 
 
-    ![test2](assets/nilakatha.jpg)
+5. ![test2](assets/nilakatha.jpg)
